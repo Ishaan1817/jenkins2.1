@@ -23,7 +23,7 @@ application.post('/subscribe', (req, res) => {
     const Email = req.body.Email
     console.log(Email)
     const to_say = {
-        from: 'Hardik bajaj <hardik23bajaj@gmail.com>',
+        from: 'Ishaan Aggarwal <ishaan4793.be22@chitkara.edu.in>',
         to: Email,
         subject: "Welcome",
         text: "Welcome, Thanks to Subscribing to us, you will receive your confirmation mail soon."
